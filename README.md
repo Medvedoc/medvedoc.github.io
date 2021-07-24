@@ -1,1 +1,0 @@
-# medvedoc.github.io
