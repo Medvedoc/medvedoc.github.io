@@ -9,7 +9,8 @@
 
 body {
     color: #1a1a1a;
-    background-color: #0d1117;
+    background: url(../images/bg.png);
+    /*background-color: #0d1117;*/
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
