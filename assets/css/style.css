@@ -9,7 +9,8 @@
 
 body {
     color: #1a1a1a;
-    background: url(../assets/images/bg.png);
+    background: url(/assets/images/bg.png);
+    background-attachment: fixed;
     /*background-color: #0d1117;*/
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
