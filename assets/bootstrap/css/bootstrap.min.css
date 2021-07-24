@@ -1396,6 +1396,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #0d1117;
+    background: url(assets/images/bg.png);
 }
 
 button,
