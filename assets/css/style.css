@@ -388,6 +388,14 @@ li {
     word-wrap: break-word;
 }
 
+.tag div {
+    background-color: #202328;
+    color: #c9d1d9;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 2px auto;
+}
+
 
 /* === Section Configure === */
 
@@ -419,12 +427,7 @@ li {
     cursor: default;
 }
 
-.main-content section .skills {
-    border-radius: 4px;
-    padding: 0 10px;
-    margin: 20px auto;
-    background-color: #202328;
-}
+.main-content section .skills {}
 
 
 /* === Section Header Light === */
@@ -480,13 +483,13 @@ li {
 
 /*-----------------------------------------------------------------*/
 
-.about .intro ul.info {
+.contact ul.info {
     margin: 20px auto;
     padding: 0;
     list-style: none;
 }
 
-.about .intro ul.info li {
+.contact ul.info li {
     padding: 7px 0;
     font-family: BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI emoji;
     font-weight: 300;
@@ -494,20 +497,31 @@ li {
     font-size: 14px;
 }
 
-.about .intro ul.info li:first-child {
+.contact ul.info li:first-child {
     padding-top: 0;
 }
 
 .about .intro p {
     margin: 0;
+    text-align: justify;
+    word-break: break-word;
+    padding: 0 0 15px 0;
+    text-indent: 25px;
 }
 
 .about .skills .item {
-    margin-top: 20px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about .skills .item .tags {
+    padding: 10px;
+    margin: 5px;
+    background-color: #202328;
 }
 
 .about .skills .item .skill-info {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .about .skills .item .skill-info h3 {
@@ -864,7 +878,7 @@ li {
 
 .progress {
     height: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     overflow: hidden;
     background-color: #E0E0E0;
     border-radius: 0;
