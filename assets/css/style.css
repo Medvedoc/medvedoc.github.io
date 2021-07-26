@@ -698,7 +698,7 @@ li {
 }
 
 .works .item-outer .item .title h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: .04em;
     text-transform: uppercase;
@@ -736,6 +736,9 @@ li {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .works .item-outer .item .overlay {
